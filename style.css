@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    outline: none;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+  }
+  
+  main {
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .resume {
+    display: flex;
+    padding: 50px 0;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .resume > div {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px #0c3264;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+  }
+  
+  .newItem {
+    display: flex;
+    gap: 20px;
+    align-items: end;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .divDesc, .divType, .divAmount {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .newItem > button {
+    background-color: #0c3264;
+    color: rgb(238, 238, 236);
+    border: none;
+    padding: 0 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 34px;
+  }
+  
+  input, select {
+    padding: 5px;
+  }
+  
+  .divTable {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  table {
+    width: 98%;
+    padding: 20px 0;
+    border-radius: 5px;
+  }
+  
+  th {
+    text-align: start;
+    border-bottom: inset;
+    padding-bottom: 5px;
+  }
+  
+  i {
+    font-size: 25px;
+  }
+  
+  .bxs-chevron-up-circle {
+    color: #2b6b06;
+  }
+  
+  .bxs-chevron-down-circle {
+    color: #f12011;
+  }
+  
+  .columnAction {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .columnAction > button {
+    background: transparent;
+    border: none;
+  }
+  
+  .columnAmount {
+    width: 30%;
+  }
+  
+  .columnType {
+    width: 80px;
+    text-align: center;
+  }
